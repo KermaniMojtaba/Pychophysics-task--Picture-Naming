@@ -177,7 +177,7 @@ for t = randomizedTrials
     fprintf(outputfile, '%s\t %s\t %d\t %s\t %s\t %s\t %f\n',...
         subID, imageFolder, t, textString, file, resp, rt);
    j=j+1; 
-   trialOrder(j) = double(strcmp(textString,'english.png'));
+   trialOrder(j) = double(strcmp(textString,'Australia_flag.png'));
 %    save (subID,'trialOrder')
    save(['results\',subID],'trialOrder')
     
